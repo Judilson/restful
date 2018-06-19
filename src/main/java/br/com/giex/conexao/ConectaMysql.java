@@ -24,7 +24,7 @@ public class ConectaMysql {
             String mydatabase ="giex";
             String url = "jdbc:mysql://" + serverName + "/" + mydatabase;
             String username = "giex";        //nome de um usuário de seu BD      
-            String password = "7xt3Dw87";      //sua senha de acesso
+            String password = "senha";      //sua senha de acesso
 
             conn = DriverManager.getConnection(url, username, password);
             conn.setAutoCommit(false);
